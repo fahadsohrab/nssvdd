@@ -10,8 +10,8 @@ function nssvdd = nssvddtrain(Traindata,params)
 % params.s        :Hyperparameter for the kernel, used in non-linear data description. Default=10.
 % params.minmax   :Possible options are 'max', 'min' ,Default='min'.
 % params.maxIter  :Maximim iteraions of the algorithm. Default=10.
-% params.consType :Regularizatioin term,
-% params.bta =0;
+% params.consType :Regularizatioin term.
+% params.bta      :Controling the importance of regularization term (psi)
 %
 %
 % Output      :nssvdd.modelparam = Trained model (for every iteration)
