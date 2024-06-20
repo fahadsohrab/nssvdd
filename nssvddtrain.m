@@ -26,8 +26,8 @@ default_params.npt = 1;
 default_params.s = 10;
 default_params.minmax = 'max';
 default_params.maxIter = 10;
-default_params.consType=0;
-default_params.bta =0;
+default_params.consType=1;
+default_params.bta =0.1;
 %%
 given = fieldnames(params);
 defaults = fieldnames(default_params);
