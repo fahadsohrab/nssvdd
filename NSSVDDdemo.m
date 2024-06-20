@@ -14,7 +14,8 @@ clear
 % params.s        :Hyperparameter for the kernel, used in non-linear data description. Default=10.
 % params.minmax   :Possible options are 'max', 'min' ,Default='min'.
 % params.maxIter  :Maximim iteraions of the algorithm. Default=10.
-
+% params.consType :Regularizatioin term (0,1,2,3) Default=1,
+% params.bta      :Controlling the importance of regularization term. Default=0.1.
 
 %% Generate Random Data
 noOfTrainData = 500; noOfTestData = 100;
