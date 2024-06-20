@@ -1,5 +1,5 @@
 function nssvdd = nssvddtrain(Traindata,params)
-%nssvddtrain() is a function for training a model based on "Graph Embedded Subspace Support Vector Data Description"
+%nssvddtrain() is a function for training a model based on "Newton Method-Based Subspace Support Vector Data Description"
 % Input
 %    Traindata = Contains training data from a single (target) class for training a model.
 %    params
