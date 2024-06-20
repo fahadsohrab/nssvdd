@@ -9,7 +9,7 @@ clear
 % other inputs/options are
 % params.C        :Value of hyperparameter C, Default=0.1.
 % params.d        :Data in lower dimension, make sure that params.dim<D, Default=2.
-% params.eta      :Needed only with gradient solution, Used as step size for gradient, Default=0.01.
+% params.eta      :Used as step size for gradient, Default=0.01.
 % params.npt      :Used for selecting non-linear data description. Possible options are 1 (for non-linear data description), default=1 (linear data description)
 % params.s        :Hyperparameter for the kernel, used in non-linear data description. Default=10.
 % params.minmax   :Possible options are 'max', 'min' ,Default='min'.
