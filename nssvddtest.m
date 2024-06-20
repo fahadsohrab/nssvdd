@@ -1,5 +1,5 @@
 function [Predictlabel,eval] = nssvddtest(Testdata,Testlabel,nssvddmodel, varargin)
-%nssvddtest() is a function for testing a model based on "Graph Embedded Subspace Support Vector Data Description"
+%nssvddtest() is a function for testing a model based on "Newton Method-Based Subspace Support Vector Data Description"
 % Input
 %   Testdata  = Contains testing data from
 %   Testlabels= contains original test lables
